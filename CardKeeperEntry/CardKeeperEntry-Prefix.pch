@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CardKeeperEntry' target in the 'CardKeeperEntry' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

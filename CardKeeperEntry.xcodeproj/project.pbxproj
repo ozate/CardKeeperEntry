@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60DA901514EB715200481CA8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA901414EB715200481CA8 /* Cocoa.framework */; };
+		60DA901F14EB715300481CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DA901D14EB715300481CA8 /* InfoPlist.strings */; };
+		60DA902114EB715300481CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA902014EB715300481CA8 /* main.m */; };
+		60DA902514EB715300481CA8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 60DA902314EB715300481CA8 /* Credits.rtf */; };
+		60DA902814EB715300481CA8 /* CHDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA902714EB715300481CA8 /* CHDocument.m */; };
+		60DA902B14EB715300481CA8 /* CHDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60DA902914EB715300481CA8 /* CHDocument.xib */; };
+		60DA902E14EB715300481CA8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60DA902C14EB715300481CA8 /* MainMenu.xib */; };
+		60DA903114EB715300481CA8 /* CHDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60DA902F14EB715300481CA8 /* CHDocument.xcdatamodeld */; };
+		60DA903914EB715300481CA8 /* CardKeeperEntryImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 60DA903614EB715300481CA8 /* CardKeeperEntryImporter.mdimporter */; };
+		60DA903B14EB715300481CA8 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA903A14EB715300481CA8 /* CoreServices.framework */; };
+		60DA903D14EB715300481CA8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA903C14EB715300481CA8 /* CoreFoundation.framework */; };
+		60DA903F14EB715300481CA8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA903E14EB715300481CA8 /* CoreData.framework */; };
+		60DA904114EB715300481CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DA904014EB715300481CA8 /* Foundation.framework */; };
+		60DA904714EB715300481CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DA904514EB715300481CA8 /* InfoPlist.strings */; };
+		60DA904914EB715300481CA8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904814EB715300481CA8 /* main.c */; };
+		60DA904B14EB715300481CA8 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904A14EB715300481CA8 /* GetMetadataForFile.m */; };
+		60DA904E14EB715300481CA8 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904D14EB715300481CA8 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60DA903714EB715300481CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60DA900714EB715200481CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60DA903514EB715300481CA8;
+			remoteInfo = CardKeeperEntryImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60DA901014EB715200481CA8 /* CardKeeperEntry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardKeeperEntry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DA901414EB715200481CA8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		60DA901714EB715200481CA8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		60DA901814EB715200481CA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60DA901914EB715200481CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60DA901C14EB715200481CA8 /* CardKeeperEntry-Info.plist */ = {isa = PBXFileReference; path = "CardKeeperEntry-Info.plist"; sourceTree = "<group>"; };
+		60DA901E14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60DA902014EB715300481CA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60DA902214EB715300481CA8 /* CardKeeperEntry-Prefix.pch */ = {isa = PBXFileReference; path = "CardKeeperEntry-Prefix.pch"; sourceTree = "<group>"; };
+		60DA902414EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		60DA902614EB715300481CA8 /* CHDocument.h */ = {isa = PBXFileReference; path = CHDocument.h; sourceTree = "<group>"; };
+		60DA902714EB715300481CA8 /* CHDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHDocument.m; sourceTree = "<group>"; };
+		60DA902A14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHDocument.xib; sourceTree = "<group>"; };
+		60DA902D14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		60DA903014EB715300481CA8 /* CHDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CHDocument.xcdatamodel; sourceTree = "<group>"; };
+		60DA903614EB715300481CA8 /* CardKeeperEntryImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardKeeperEntryImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DA903A14EB715300481CA8 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		60DA903C14EB715300481CA8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		60DA903E14EB715300481CA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60DA904014EB715300481CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60DA904414EB715300481CA8 /* CardKeeperEntryImporter-Info.plist */ = {isa = PBXFileReference; path = "CardKeeperEntryImporter-Info.plist"; sourceTree = "<group>"; };
+		60DA904614EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60DA904814EB715300481CA8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		60DA904A14EB715300481CA8 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		60DA904C14EB715300481CA8 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		60DA904D14EB715300481CA8 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		60DA904F14EB715300481CA8 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		60DA905014EB715300481CA8 /* CardKeeperEntryImporter-Prefix.pch */ = {isa = PBXFileReference; path = "CardKeeperEntryImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60DA900D14EB715200481CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA901514EB715200481CA8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DA903314EB715300481CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA903B14EB715300481CA8 /* CoreServices.framework in Frameworks */,
+				60DA903D14EB715300481CA8 /* CoreFoundation.framework in Frameworks */,
+				60DA903F14EB715300481CA8 /* CoreData.framework in Frameworks */,
+				60DA904114EB715300481CA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DA900514EB715200481CA8 = {
+			isa = PBXGroup;
+			children = (
+				60DA901A14EB715200481CA8 /* CardKeeperEntry */,
+				60DA904214EB715300481CA8 /* CardKeeperEntryImporter */,
+				60DA901314EB715200481CA8 /* Frameworks */,
+				60DA901114EB715200481CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60DA901114EB715200481CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60DA901014EB715200481CA8 /* CardKeeperEntry.app */,
+				60DA903614EB715300481CA8 /* CardKeeperEntryImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60DA901314EB715200481CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60DA901414EB715200481CA8 /* Cocoa.framework */,
+				60DA903A14EB715300481CA8 /* CoreServices.framework */,
+				60DA903C14EB715300481CA8 /* CoreFoundation.framework */,
+				60DA903E14EB715300481CA8 /* CoreData.framework */,
+				60DA904014EB715300481CA8 /* Foundation.framework */,
+				60DA901614EB715200481CA8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60DA901614EB715200481CA8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60DA901714EB715200481CA8 /* AppKit.framework */,
+				60DA901814EB715200481CA8 /* CoreData.framework */,
+				60DA901914EB715200481CA8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		60DA901A14EB715200481CA8 /* CardKeeperEntry */ = {
+			isa = PBXGroup;
+			children = (
+				60DA902614EB715300481CA8 /* CHDocument.h */,
+				60DA902714EB715300481CA8 /* CHDocument.m */,
+				60DA902914EB715300481CA8 /* CHDocument.xib */,
+				60DA902C14EB715300481CA8 /* MainMenu.xib */,
+				60DA902F14EB715300481CA8 /* CHDocument.xcdatamodeld */,
+				60DA901B14EB715200481CA8 /* Supporting Files */,
+			);
+			path = CardKeeperEntry;
+			sourceTree = "<group>";
+		};
+		60DA901B14EB715200481CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DA901C14EB715200481CA8 /* CardKeeperEntry-Info.plist */,
+				60DA901D14EB715300481CA8 /* InfoPlist.strings */,
+				60DA902014EB715300481CA8 /* main.m */,
+				60DA902214EB715300481CA8 /* CardKeeperEntry-Prefix.pch */,
+				60DA902314EB715300481CA8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60DA904214EB715300481CA8 /* CardKeeperEntryImporter */ = {
+			isa = PBXGroup;
+			children = (
+				60DA904A14EB715300481CA8 /* GetMetadataForFile.m */,
+				60DA904C14EB715300481CA8 /* MySpotlightImporter.h */,
+				60DA904D14EB715300481CA8 /* MySpotlightImporter.m */,
+				60DA904F14EB715300481CA8 /* Importer Read Me.txt */,
+				60DA904314EB715300481CA8 /* Supporting Files */,
+			);
+			path = CardKeeperEntryImporter;
+			sourceTree = "<group>";
+		};
+		60DA904314EB715300481CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DA904414EB715300481CA8 /* CardKeeperEntryImporter-Info.plist */,
+				60DA904514EB715300481CA8 /* InfoPlist.strings */,
+				60DA904814EB715300481CA8 /* main.c */,
+				60DA905014EB715300481CA8 /* CardKeeperEntryImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60DA900F14EB715200481CA8 /* CardKeeperEntry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DA905614EB715300481CA8 /* Build configuration list for PBXNativeTarget "CardKeeperEntry" */;
+			buildPhases = (
+				60DA900C14EB715200481CA8 /* Sources */,
+				60DA900D14EB715200481CA8 /* Frameworks */,
+				60DA900E14EB715200481CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60DA903814EB715300481CA8 /* PBXTargetDependency */,
+			);
+			name = CardKeeperEntry;
+			productName = CardKeeperEntry;
+			productReference = 60DA901014EB715200481CA8 /* CardKeeperEntry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60DA903514EB715300481CA8 /* CardKeeperEntryImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DA905314EB715300481CA8 /* Build configuration list for PBXNativeTarget "CardKeeperEntryImporter" */;
+			buildPhases = (
+				60DA903214EB715300481CA8 /* Sources */,
+				60DA903314EB715300481CA8 /* Frameworks */,
+				60DA903414EB715300481CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardKeeperEntryImporter;
+			productName = CardKeeperEntryImporter;
+			productReference = 60DA903614EB715300481CA8 /* CardKeeperEntryImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60DA900714EB715200481CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ozate Inc.";
+			};
+			buildConfigurationList = 60DA900A14EB715200481CA8 /* Build configuration list for PBXProject "CardKeeperEntry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60DA900514EB715200481CA8;
+			productRefGroup = 60DA901114EB715200481CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60DA900F14EB715200481CA8 /* CardKeeperEntry */,
+				60DA903514EB715300481CA8 /* CardKeeperEntryImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60DA900E14EB715200481CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA901F14EB715300481CA8 /* InfoPlist.strings in Resources */,
+				60DA902514EB715300481CA8 /* Credits.rtf in Resources */,
+				60DA902B14EB715300481CA8 /* CHDocument.xib in Resources */,
+				60DA902E14EB715300481CA8 /* MainMenu.xib in Resources */,
+				60DA903914EB715300481CA8 /* CardKeeperEntryImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DA903414EB715300481CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA904714EB715300481CA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DA900C14EB715200481CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA902114EB715300481CA8 /* main.m in Sources */,
+				60DA902814EB715300481CA8 /* CHDocument.m in Sources */,
+				60DA903114EB715300481CA8 /* CHDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DA903214EB715300481CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DA904914EB715300481CA8 /* main.c in Sources */,
+				60DA904B14EB715300481CA8 /* GetMetadataForFile.m in Sources */,
+				60DA904E14EB715300481CA8 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60DA903814EB715300481CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60DA903514EB715300481CA8 /* CardKeeperEntryImporter */;
+			targetProxy = 60DA903714EB715300481CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60DA901D14EB715300481CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DA901E14EB715300481CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60DA902314EB715300481CA8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DA902414EB715300481CA8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		60DA902914EB715300481CA8 /* CHDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DA902A14EB715300481CA8 /* en */,
+			);
+			name = CHDocument.xib;
+			sourceTree = "<group>";
+		};
+		60DA902C14EB715300481CA8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DA902D14EB715300481CA8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		60DA904514EB715300481CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60DA904614EB715300481CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60DA905114EB715300481CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60DA905214EB715300481CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60DA905414EB715300481CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardKeeperEntryImporter/CardKeeperEntryImporter-Prefix.pch";
+				INFOPLIST_FILE = "CardKeeperEntryImporter/CardKeeperEntryImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		60DA905514EB715300481CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardKeeperEntryImporter/CardKeeperEntryImporter-Prefix.pch";
+				INFOPLIST_FILE = "CardKeeperEntryImporter/CardKeeperEntryImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		60DA905714EB715300481CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardKeeperEntry/CardKeeperEntry-Prefix.pch";
+				INFOPLIST_FILE = "CardKeeperEntry/CardKeeperEntry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60DA905814EB715300481CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardKeeperEntry/CardKeeperEntry-Prefix.pch";
+				INFOPLIST_FILE = "CardKeeperEntry/CardKeeperEntry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DA900A14EB715200481CA8 /* Build configuration list for PBXProject "CardKeeperEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DA905114EB715300481CA8 /* Debug */,
+				60DA905214EB715300481CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60DA905314EB715300481CA8 /* Build configuration list for PBXNativeTarget "CardKeeperEntryImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DA905414EB715300481CA8 /* Debug */,
+				60DA905514EB715300481CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60DA905614EB715300481CA8 /* Build configuration list for PBXNativeTarget "CardKeeperEntry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DA905714EB715300481CA8 /* Debug */,
+				60DA905814EB715300481CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60DA902F14EB715300481CA8 /* CHDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60DA903014EB715300481CA8 /* CHDocument.xcdatamodel */,
+			);
+			currentVersion = 60DA903014EB715300481CA8 /* CHDocument.xcdatamodel */;
+			path = CHDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60DA900714EB715200481CA8 /* Project object */;
+}

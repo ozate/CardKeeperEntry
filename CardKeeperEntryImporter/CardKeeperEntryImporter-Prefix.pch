@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'CardKeeperEntryImporter' target in the 'CardKeeperEntryImporter' project
+//
+
+#ifdef __OBJC__
+#endif
