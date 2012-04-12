@@ -24,6 +24,9 @@
 		60DA904914EB715300481CA8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904814EB715300481CA8 /* main.c */; };
 		60DA904B14EB715300481CA8 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904A14EB715300481CA8 /* GetMetadataForFile.m */; };
 		60DA904E14EB715300481CA8 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA904D14EB715300481CA8 /* MySpotlightImporter.m */; };
+		60DA907214EB84E000481CA8 /* CardSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA907114EB84E000481CA8 /* CardSet.m */; };
+		60DA907514EB84E000481CA8 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA907414EB84E000481CA8 /* Character.m */; };
+		60DA907B14EB85FA00481CA8 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA907A14EB85FA00481CA8 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +45,12 @@
 		60DA901714EB715200481CA8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		60DA901814EB715200481CA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		60DA901914EB715200481CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		60DA901C14EB715200481CA8 /* CardKeeperEntry-Info.plist */ = {isa = PBXFileReference; path = "CardKeeperEntry-Info.plist"; sourceTree = "<group>"; };
+		60DA901C14EB715200481CA8 /* CardKeeperEntry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardKeeperEntry-Info.plist"; sourceTree = "<group>"; };
 		60DA901E14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60DA902014EB715300481CA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60DA902214EB715300481CA8 /* CardKeeperEntry-Prefix.pch */ = {isa = PBXFileReference; path = "CardKeeperEntry-Prefix.pch"; sourceTree = "<group>"; };
+		60DA902214EB715300481CA8 /* CardKeeperEntry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardKeeperEntry-Prefix.pch"; sourceTree = "<group>"; };
 		60DA902414EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		60DA902614EB715300481CA8 /* CHDocument.h */ = {isa = PBXFileReference; path = CHDocument.h; sourceTree = "<group>"; };
+		60DA902614EB715300481CA8 /* CHDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHDocument.h; sourceTree = "<group>"; };
 		60DA902714EB715300481CA8 /* CHDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHDocument.m; sourceTree = "<group>"; };
 		60DA902A14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHDocument.xib; sourceTree = "<group>"; };
 		60DA902D14EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -57,14 +60,20 @@
 		60DA903C14EB715300481CA8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		60DA903E14EB715300481CA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		60DA904014EB715300481CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		60DA904414EB715300481CA8 /* CardKeeperEntryImporter-Info.plist */ = {isa = PBXFileReference; path = "CardKeeperEntryImporter-Info.plist"; sourceTree = "<group>"; };
+		60DA904414EB715300481CA8 /* CardKeeperEntryImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardKeeperEntryImporter-Info.plist"; sourceTree = "<group>"; };
 		60DA904614EB715300481CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60DA904814EB715300481CA8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		60DA904A14EB715300481CA8 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		60DA904C14EB715300481CA8 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		60DA904C14EB715300481CA8 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		60DA904D14EB715300481CA8 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		60DA904F14EB715300481CA8 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		60DA905014EB715300481CA8 /* CardKeeperEntryImporter-Prefix.pch */ = {isa = PBXFileReference; path = "CardKeeperEntryImporter-Prefix.pch"; sourceTree = "<group>"; };
+		60DA904F14EB715300481CA8 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		60DA905014EB715300481CA8 /* CardKeeperEntryImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardKeeperEntryImporter-Prefix.pch"; sourceTree = "<group>"; };
+		60DA907014EB84E000481CA8 /* CardSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardSet.h; path = CardKeeperEntry/CardSet.h; sourceTree = "<group>"; };
+		60DA907114EB84E000481CA8 /* CardSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardSet.m; path = CardKeeperEntry/CardSet.m; sourceTree = "<group>"; };
+		60DA907314EB84E000481CA8 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = CardKeeperEntry/Character.h; sourceTree = "<group>"; };
+		60DA907414EB84E000481CA8 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = CardKeeperEntry/Character.m; sourceTree = "<group>"; };
+		60DA907914EB85FA00481CA8 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = CardKeeperEntry/Card.h; sourceTree = "<group>"; };
+		60DA907A14EB85FA00481CA8 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = CardKeeperEntry/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +102,9 @@
 		60DA900514EB715200481CA8 = {
 			isa = PBXGroup;
 			children = (
+				60DA906214EB821400481CA8 /* Model */,
 				60DA901A14EB715200481CA8 /* CardKeeperEntry */,
+				60DA901B14EB715200481CA8 /* Supporting Files */,
 				60DA904214EB715300481CA8 /* CardKeeperEntryImporter */,
 				60DA901314EB715200481CA8 /* Frameworks */,
 				60DA901114EB715200481CA8 /* Products */,
@@ -139,8 +150,6 @@
 				60DA902714EB715300481CA8 /* CHDocument.m */,
 				60DA902914EB715300481CA8 /* CHDocument.xib */,
 				60DA902C14EB715300481CA8 /* MainMenu.xib */,
-				60DA902F14EB715300481CA8 /* CHDocument.xcdatamodeld */,
-				60DA901B14EB715200481CA8 /* Supporting Files */,
 			);
 			path = CardKeeperEntry;
 			sourceTree = "<group>";
@@ -155,6 +164,7 @@
 				60DA902314EB715300481CA8 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			path = CardKeeperEntry;
 			sourceTree = "<group>";
 		};
 		60DA904214EB715300481CA8 /* CardKeeperEntryImporter */ = {
@@ -178,6 +188,20 @@
 				60DA905014EB715300481CA8 /* CardKeeperEntryImporter-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60DA906214EB821400481CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60DA907914EB85FA00481CA8 /* Card.h */,
+				60DA907A14EB85FA00481CA8 /* Card.m */,
+				60DA902F14EB715300481CA8 /* CHDocument.xcdatamodeld */,
+				60DA907314EB84E000481CA8 /* Character.h */,
+				60DA907414EB84E000481CA8 /* Character.m */,
+				60DA907014EB84E000481CA8 /* CardSet.h */,
+				60DA907114EB84E000481CA8 /* CardSet.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +300,9 @@
 				60DA902114EB715300481CA8 /* main.m in Sources */,
 				60DA902814EB715300481CA8 /* CHDocument.m in Sources */,
 				60DA903114EB715300481CA8 /* CHDocument.xcdatamodeld in Sources */,
+				60DA907214EB84E000481CA8 /* CardSet.m in Sources */,
+				60DA907514EB84E000481CA8 /* Character.m in Sources */,
+				60DA907B14EB85FA00481CA8 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +506,8 @@
 				60DA903014EB715300481CA8 /* CHDocument.xcdatamodel */,
 			);
 			currentVersion = 60DA903014EB715300481CA8 /* CHDocument.xcdatamodel */;
-			path = CHDocument.xcdatamodeld;
+			name = CHDocument.xcdatamodeld;
+			path = CardKeeperEntry/CHDocument.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

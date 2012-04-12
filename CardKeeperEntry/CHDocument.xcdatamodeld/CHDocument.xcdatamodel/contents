@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="untitled.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="actionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attackType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defenseType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frequencyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hitChance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hitEffect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelRequirement" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="missEffect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="professionRequirement" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="raceRequirement" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="used" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="cardSets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CardSet" inverseName="cards" inverseEntity="CardSet" syncable="YES"/>
+    </entity>
+    <entity name="CardSet" representedClassName="CardSet" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Card" inverseName="cardSets" inverseEntity="Card" syncable="YES"/>
+        <relationship name="character" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="cardSets" inverseEntity="Character" syncable="YES"/>
+    </entity>
+    <entity name="Character" representedClassName="Character" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profession" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="race" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cardSets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CardSet" inverseName="character" inverseEntity="CardSet" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="405" positionY="-252" width="234" height="270"/>
+        <element name="CardSet" positionX="70" positionY="-231" width="128" height="90"/>
+        <element name="Character" positionX="-119" positionY="-261" width="128" height="120"/>
+    </elements>
 </model>
